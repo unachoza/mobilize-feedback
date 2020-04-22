@@ -63,5 +63,4 @@ export const useEventsFetch = ( pageNumber, requestUrl) => {
   return { loading, error, fetchedEvents, hasMore };
 };
 
-module.exports = useEventsFetch
 
