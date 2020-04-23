@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import { MOBILZE_BASE_URL, DEFAULT_ZIPCODE } from 'Constants/constants';
+import { MOBILZE_BASE_URL, DEFAULT_ZIPCODE } from '../Constants/constants';
 
 const normalizeEventData = (event) => ({
   id: event.id,

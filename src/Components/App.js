@@ -1,13 +1,13 @@
 import React, { useState, useRef, useCallback } from 'react';
-import Map from 'Components/Map/map.component';
-import Form from 'Components/Form/form.component';
-import EventList from 'Components/EventList/eventList.component';
-import Header from 'Components/Header/header.component';
+import Map from './Map/map.component';
+import Form from './Form/form.component';
+import EventList from './EventList/eventList.component';
+import Header from './Header/header.component';
 import { useEventsFetch } from 'API/MobilizeFetch';
 import { EventsContext } from 'Context/event.context';
-import 'Components/App.css';
-import LoadingSpinner from 'Components/loadingSpinner/loadingSpinner.component';
-import { MOBILZE_BASE_URL } from 'Constants/constants';
+import './App.css';
+import LoadingSpinner from './loadingSpinner/loadingSpinner.component';
+import { MOBILZE_BASE_URL } from './Constants/constants';
 
 const App = () => {
   const [pageNumber, setPageNumber] = useState(1);
