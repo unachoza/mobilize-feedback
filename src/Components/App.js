@@ -4,7 +4,7 @@ import Form from './Form/form.component';
 import EventList from './EventList/eventList.component';
 import Header from './Header/header.component';
 import { useEventsFetch } from '../API/MobilizeFetch';
-import { EventsContext } from '../Context/event.context';
+import { EventsContext } from '../Context/event.context'
 import './App.css';
 import LoadingSpinner from './loadingSpinner/loadingSpinner.component';
 import { MOBILZE_BASE_URL } from '../Constants/constants';
