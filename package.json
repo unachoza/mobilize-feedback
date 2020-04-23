@@ -19,9 +19,7 @@
     "build": "react-scripts build \"NODE_PATH=./src\"",
     "started": " react-scripts start  \"NODE_PATH=./src\"",
     "test": "react-scripts test --watch *.js",
-    "eject": "react-scripts eject",
-    "devs": "webpack --env.ENVIRONMENT=development --config webpack.config.dev.js",
-    "buildd": "webpack --env.ENVIRONMENT=production --config webpack.config.build.js"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
