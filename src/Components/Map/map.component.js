@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { GoogleMap, LoadScript, Marker, InfoWindow } from '@react-google-maps/api';
-import './Map/map.styles.css';
+import './map.styles.css';
 import EventsContext from '../Context/event.context';
 const API_KEY = process.env.REACT_APP_GOOGLE_MAPS_API_KEY;
 
