@@ -7,7 +7,7 @@ import { useEventsFetch } from 'API/MobilizeFetch';
 import { EventsContext } from 'Context/event.context';
 import './App.css';
 import LoadingSpinner from './loadingSpinner/loadingSpinner.component';
-import { MOBILZE_BASE_URL } from './Constants/constants';
+import { MOBILZE_BASE_URL } from '../Constants/constants';
 
 const App = () => {
   const [pageNumber, setPageNumber] = useState(1);
