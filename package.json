@@ -14,10 +14,14 @@
     "react-spinners": "^0.8.1"
   },
   "scripts": {
-    "start": " react-scripts start  \"NODE_PATH=./src\"",
-    "build": "react-scripts build",
+    "start": "node bin/www.js",
+    "dev": "node -r dotenv/config bin/www.js",
+    "build": "react-scripts build \"NODE_PATH=./src\"",
+    "started": " react-scripts start  \"NODE_PATH=./src\"",
     "test": "react-scripts test --watch *.js",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "devs": "webpack --env.ENVIRONMENT=development --config webpack.config.dev.js",
+    "buildd": "webpack --env.ENVIRONMENT=production --config webpack.config.build.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,6 +39,9 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "dotenv": "^8.2.0",
+    "gh-pages": "^2.2.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
   }
 }
