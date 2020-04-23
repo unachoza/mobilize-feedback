@@ -18,7 +18,7 @@
   },
   "scripts": {
     "dev": "node -r dotenv/config bin/www.js",
-    "build": "react-scripts build ",
+    "build": "react-scripts build \"NODE_PATH=./src\"",
     "start": " react-scripts start  \"NODE_PATH=./src\"",
     "test": "react-scripts test --watch *.js",
     "eject": "react-scripts eject"
