@@ -1,6 +1,6 @@
 import React from 'react';
 import Event from '../Event/event.component';
-import './EventList/eventList.styles.css';
+import './eventList.styles.css';
 import LoadingSpinner from '../loadingSpinner/loadingSpinner.component';
 
 
